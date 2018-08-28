@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:15:04:04 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 274 http-bio-8080-exec-1 77
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:15:05:47 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 279 http-bio-8080-exec-1 1147
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:15:41:21 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 279 http-bio-8080-exec-1 3923
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:26:02 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 279 http-bio-8080-exec-1 75
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:29:33 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 279 http-bio-8080-exec-1 61
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:29:34 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 279 http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:29:41 +0800] "GET /mall-web-shop/index.jsp HTTP/1.1" 200 57 http-bio-8080-exec-3 454
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:35:09 +0800] "GET /mall-web-shop/login.jsp HTTP/1.1" 200 287 http-bio-8080-exec-1 12307
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:54:30 +0800] "GET /mall-web-shop/ HTTP/1.1" 404 68 http-bio-8080-exec-1 88
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:54:33 +0800] "GET /mall-web-shop/addnewuser HTTP/1.1" 404 68 http-bio-8080-exec-2 7
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:55:32 +0800] "GET /mall-web-shop/index HTTP/1.1" 404 68 http-bio-8080-exec-1 91
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:55:33 +0800] "GET /mall-web-shop/index HTTP/1.1" 404 68 http-bio-8080-exec-2 5
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:16:55:34 +0800] "GET /mall-web-shop/index HTTP/1.1" 404 68 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:17:00:58 +0800] "GET /mall-web-shop/index HTTP/1.1" 404 68 http-bio-8080-exec-1 90
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:17:00:59 +0800] "GET /mall-web-shop/index HTTP/1.1" 404 68 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:17:08:45 +0800] "GET /mall-web-shop/index HTTP/1.1" 200 57 http-bio-8080-exec-1 6599
+0:0:0:0:0:0:0:1 - - [10/Aug/2018:17:16:13 +0800] "GET /mall-web-shop/addnewuser?username=aaa&userpwd=bbb HTTP/1.1" 200 57 http-bio-8080-exec-1 17469

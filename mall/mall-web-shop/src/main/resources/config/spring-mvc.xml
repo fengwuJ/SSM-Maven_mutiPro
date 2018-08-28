@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+	">
+	<mvc:default-servlet-handler/>
+	
+	<mvc:annotation-driven></mvc:annotation-driven>
+		
+	<context:component-scan base-package="controller">
+		<!-- 扫描所有的controller  -->
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+		<!-- 但是不扫描service -->
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" />
+		<!-- 本项目使用接口代理方式，所以无须考虑：不扫描dao的注解 -->
+	</context:component-scan>
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
+		<!-- 前缀-->
+		<property name="prefix" value="/" />
+		<!-- 后缀-->
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+</beans>

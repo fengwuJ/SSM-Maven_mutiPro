@@ -1,0 +1,9 @@
+package mall.service;
+import mall.entity.*;
+import mall.dao.*;
+public class UserService {
+	public boolean addnewuser(UserInfo u) {
+		
+		return true;
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!-- 通过别名简化对类的使用 -->
+<typeAliases>
+<!-- <typeAlias type="com.entity.Dept" alias="Dept" />-->
+ 	<!-- 自动 给当前包下边的实体类加个别名 --><package name="mall.entity"/>
+</typeAliases>
+<!--<mappers> 如果有特别需要加载的mapper文件可以在这里标注
+		<mapper resource="mall/dao/DeptMapper.xml" />
+	</mappers>-->
+</configuration>

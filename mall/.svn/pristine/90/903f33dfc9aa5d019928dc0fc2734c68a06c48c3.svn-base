@@ -1,0 +1,9 @@
+package controller;
+import mall.entity.*;
+import mall.service.*;
+public class UserController {
+	public void test1() {
+		UserInfo u=new UserInfo();
+		
+	}
+}
